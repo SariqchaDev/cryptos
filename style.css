@@ -1,0 +1,318 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1220px;
+    margin: 0 auto;
+}
+body{
+    background-color: #1B004E;
+}
+header{
+    padding: 20px 0;
+    background-color:#1B004E ;
+}
+header .container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    list-style: none;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+.head-btn{
+    color: white;
+    border: 2px solid #EB5757;
+    background-color: inherit;
+    border-radius: 25px;
+    padding: 15px 30px;
+    font-size: 17px;
+}
+
+.hero h1{
+    color: white;
+    font-size: 60px;
+    line-height: 69px;
+}
+
+.hero{
+    width: 605px;
+    background-color: #1B004E;
+    margin: 60px ;
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.hero p{
+    color: white;
+    line-height: 25px;
+    font-size: 19px;
+}
+.hero-btn{
+    color: white;
+    background-color: #EB5757;
+    padding: 15px 30px;
+    border-radius: 25px;
+    border: none;
+    margin: 20px 0;
+}
+.img{
+    width: 614px;
+}
+
+
+.cardlar{
+    background-color: white;
+    padding: 40px 0;
+}
+.cardlar h1{
+font-weight: 700;
+font-style: Bold;
+font-size: 32px;
+line-height: 100%;
+letter-spacing: 0%;
+text-align: center;
+}
+
+.card{
+    width: 315px;
+    line-height: 25px;
+    margin: 50px ;
+}
+
+.ota{
+    display: flex;
+}
+.yozuv{
+    width: 500px;
+    color: white;
+    margin: 70px 0;
+}
+.yozuv p{
+    margin: 20px 0;
+    line-height: 24px;
+}
+.tel{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+.rasm{
+    margin: 70px 0;
+}
+
+.learn h1{
+    font-weight: 700;
+font-style: Bold;
+font-size: 32px;
+line-height: 100%;
+letter-spacing: 0%;
+text-align: center;
+}
+
+.learn{
+    background-color: white;
+    padding: 40px 0;
+}
+
+.card2{
+    width: 358px;
+    margin: 40px 0;
+    
+}
+.card2 h3{
+    margin: 15px 0;
+}
+
+.ota2{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.never{
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+.inpt h1{
+font-weight: 700;
+font-style: Bold;
+font-size: 50px;
+line-height: 50px;
+letter-spacing: 0%;
+}
+
+.inpt input{
+    padding: 18px;
+    padding-right: 192px;
+    background-color: inherit;
+    border-radius: 25px;
+    border: 1px solid white;
+}
+.never-btn{
+    color: white;
+    background-color: #EB5757;
+    padding: 15px 30px;
+    border-radius: 25px;
+    border: none;
+    margin: 20px 0;
+    margin-left:-127px;
+}
+.inpt h4{
+    margin: 15px 0;
+}
+
+
+
+
+
+footer{
+    background: linear-gradient(227.07deg, #4E0062 0.43%, #220076 99.56%);
+    display: flex;
+}
+
+footer .container{
+    padding: 50px 0;
+    color: white;
+    gap: 50px;
+}
+footer ul li{
+    color: gray;
+    list-style: none;
+    line-height: 40px;
+}
+.qator{
+    display: flex;
+    width: 1200px;
+    gap: 190px;
+}
+
+
+.icons{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 25px;
+}
+.icon{
+    width: 50px;
+    height: 50px;
+    border: 3px solid gray;
+    border-radius: 15px;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: gray;
+}
+
+
+.pas{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+h5{
+    color: gray;
+}
+
+
+.menu-btn{
+    color: white;
+    background-color: inherit;
+    border: none;
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width:768px){
+     nav{
+        display: none;
+     }
+     .head-btn{
+        display: none;
+     }
+     .menu-btn{
+        display: block;
+     }
+     .img{
+        display: none;
+     }
+     .hero{
+        display: flex;
+     }
+     .ota{
+        flex-wrap: wrap;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .cardlar .container{
+        display: flex;
+     }
+     .cardlar h1{
+        font-size: 20px;
+        margin-bottom: 20px;
+     }
+     .card{
+        align-items: center;
+     }
+     .tel{
+        flex-direction: column;
+     }
+     .ota2{
+        flex-direction: column;
+     }
+     .container .qator{
+        flex-direction: column;
+        display: flex;
+        justify-content: center;
+     }
+     footer{
+        display: flex;
+        justify-content: center;
+     }
+     .pas{
+        flex-direction: column;
+        display: flex;
+        text-align: center;
+     }
+}
